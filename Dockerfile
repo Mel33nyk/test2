@@ -1,1 +1,2 @@
-#test file2
+From ubuntu:latest
+MAINTAINER Mel33nyk
