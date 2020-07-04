@@ -1,2 +1,6 @@
-From ubuntu:latest
+FROM sql:latest
 MAINTAINER Mel33nyk
+
+ENV ACCEPT_EULA=Y 
+ENV SA_PASSWORD=SECRET
+EXPOSE 1433:1433
