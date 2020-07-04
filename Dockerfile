@@ -1,6 +1,5 @@
-FROM sql:latest
-MAINTAINER Mel33nyk
+FROM mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
-ENV ACCEPT_EULA=Y 
-ENV SA_PASSWORD=SECRET
-EXPOSE 1433:1433
+ENV SA_PASSWORD yourStrong(!)Password
+ENV ACCEPT_EULA Y
+ENV MSSQL_PID Express
